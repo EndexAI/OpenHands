@@ -5144,20 +5144,21 @@ files = [
 
 [[package]]
 name = "mcp"
-version = "1.7.1"
+version = "1.10.0"
 description = "Model Context Protocol SDK"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "mcp-1.7.1-py3-none-any.whl", hash = "sha256:f7e6108977db6d03418495426c7ace085ba2341b75197f8727f96f9cfd30057a"},
-    {file = "mcp-1.7.1.tar.gz", hash = "sha256:eb4f1f53bd717f75dda8a1416e00804b831a8f3c331e23447a03b78f04b43a6e"},
+    {file = "mcp-1.10.0-py3-none-any.whl", hash = "sha256:925c45482d75b1b6f11febddf9736d55edf7739c7ea39b583309f6651cbc9e5c"},
+    {file = "mcp-1.10.0.tar.gz", hash = "sha256:91fb1623c3faf14577623d14755d3213db837c5da5dae85069e1b59124cbe0e9"},
 ]
 
 [package.dependencies]
 anyio = ">=4.5"
 httpx = ">=0.27"
 httpx-sse = ">=0.4"
+jsonschema = ">=4.20.0"
 pydantic = ">=2.7.2,<3.0.0"
 pydantic-settings = ">=2.5.2"
 python-multipart = ">=0.0.9"
@@ -11249,4 +11250,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12,<3.14"
-content-hash = "3289d4f57295bf215347f6c2ad766788e8530bb18708cb81851dcbbf809a4457"
+content-hash = "f44a57109667439b89fa081fc2f9fec8ed668f3bb2b042069812ec903ead6b53"
